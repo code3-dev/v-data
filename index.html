@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلودهای CCloud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0a0a0a',
+                            800: '#121212',
+                            700: '#1a1a1a',
+                        }
+                    },
+                    fontFamily: {
+                        'vazir': ['Vazirmatn', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#0a0a0a] text-gray-100 min-h-screen font-vazir p-6" dir="rtl">
+    <div class="max-w-2xl mx-auto">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1
+                class="text-4xl font-bold bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent mb-2">
+                دانلودهای CCloud
+            </h1>
+            <div class="w-20 h-1 bg-gradient-to-r from-purple-500 to-indigo-500 mx-auto rounded-full"></div>
+        </div>
+
+        <!-- Download Links -->
+        <div class="space-y-4">
+
+            <!-- Android -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-green-500/30 transition-all duration-300 group">
+                <a href="CCloud-universal.apk" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center">
+                            <i data-lucide="smartphone" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">اپلیکیشن اندروید</h3>
+                            <p class="text-gray-400 text-sm">نسخه جامع برای اندروید</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-green-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Windows -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-blue-500/30 transition-all duration-300 group">
+                <a href="ccloud_gui-setup.exe" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center">
+                            <i data-lucide="monitor" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">نصب ویندوز</h3>
+                            <p class="text-gray-400 text-sm">نصب‌کننده گرافیکی برای ویندوز</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-blue-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- macOS DMG -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-purple-500/30 transition-all duration-300 group">
+                <a href="CCloud-macos-universal.dmg" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
+                            <i data-lucide="apple" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">تصویر دیسک مک</h3>
+                            <p class="text-gray-400 text-sm">نسخه جامع برای سیستم‌عامل مک</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-purple-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- macOS ZIP -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-pink-500/30 transition-all duration-300 group">
+                <a href="CCloud-macos-universal.zip" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center">
+                            <i data-lucide="archive" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">آرشیو فشرده مک</h3>
+                            <p class="text-gray-400 text-sm">آرشیو فشرده جامع برای مک</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-pink-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Linux DEB -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-orange-500/30 transition-all duration-300 group">
+                <a href="ccloud.deb" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
+                            <i data-lucide="package" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">پکیج دبیان لینوکس</h3>
+                            <p class="text-gray-400 text-sm">پکیج دبیان برای اوبونتو/دبیان</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-orange-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Linux TAR.GZ -->
+            <div
+                class="bg-[#121212] rounded-xl border border-gray-800 p-5 hover:border-red-500/30 transition-all duration-300 group">
+                <a href="CCloud-linux.tar.gz" class="flex items-center justify-between w-full">
+                    <div class="flex items-center space-x-4">
+                        <div
+                            class="w-12 h-12 ml-2 rounded-lg bg-gradient-to-br from-red-500 to-rose-600 flex items-center justify-center">
+                            <i data-lucide="file-archive" class="h-6 w-6 text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-100">آرشیو فشرده لینوکس</h3>
+                            <p class="text-gray-400 text-sm">آرشیو فشرده برای سیستم‌عامل لینوکس</p>
+                        </div>
+                    </div>
+                    <div class="text-purple-400 group-hover:text-red-400 transition-colors">
+                        <i data-lucide="download" class="h-6 w-6"></i>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Notes Section -->
+        <div class="mt-10 space-y-6 max-w-2xl mx-auto">
+
+            <!-- Windows Note -->
+            <div class="bg-[#1a1a1a] border border-yellow-500/30 rounded-xl p-5">
+                <div class="flex items-start space-x-3">
+                    <div class="flex-shrink-0 mt-1 ml-1">
+                        <i data-lucide="alert-triangle" class="h-6 w-6 text-yellow-400"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-yellow-400 mb-2">نکته مهم برای کاربران ویندوز</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            اگر هنگام نصب یا اجرای CCloud در ویندوز با خطا مواجه شدید، لطفاً Microsoft Visual C++
+                            Redistributable 2015-2022 را نصب کرده و سپس دوباره نصب یا اجرای CCloud را امتحان کنید.
+                        </p>
+                        <p class="text-gray-400 text-xs mt-2">
+                            می‌توانید آن را از وب‌سایت رسمی مایکروسافت دانلود کنید:
+                            <a href="https://learn.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist"
+                                target="_blank" class="text-blue-400 hover:text-blue-300 underline">Microsoft Visual C++
+                                Redistributable</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Linux Note -->
+            <div class="bg-[#1a1a1a] border border-blue-500/30 rounded-xl p-5">
+                <div class="flex items-start space-x-3">
+                    <div class="flex-shrink-0 mt-1 ml-1">
+                        <i data-lucide="info" class="h-6 w-6 text-blue-400"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-blue-400 mb-2">راهنمای نصب لینوکس</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed mb-2">
+                            برای دستورالعمل‌های دقیق در مورد نصب و اجرای CCloud در لینوکس، لطفاً به راهنمای نصب لینوکس
+                            ما مراجعه کنید.
+                        </p>
+                        <a href="https://github.com/code3-dev/CCloud-GUI/blob/master/assets/LINUX_INSTALL.md"
+                            target="_blank"
+                            class="inline-flex items-center text-blue-400 hover:text-blue-300 text-sm font-medium">
+                            مشاهده راهنمای نصب لینوکس
+                            <i data-lucide="external-link" class="h-4 w-4 mr-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Toast Container -->
+        <div id="toast-container" class="fixed bottom-4 left-4 z-50 space-y-2"></div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Toast notification system
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+
+            const bgColor = type === 'success' ? 'bg-green-600' :
+                type === 'error' ? 'bg-red-600' :
+                    type === 'warning' ? 'bg-yellow-600' : 'bg-blue-600';
+
+            toast.className = `flex items-center p-4 rounded-lg text-white ${bgColor} shadow-lg transform transition-all duration-300 translate-x-full`;
+            toast.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                </svg>
+                ${message}
+            `;
+
+            container.appendChild(toast);
+
+            // Animate in
+            setTimeout(() => {
+                toast.classList.remove('translate-x-full');
+            }, 100);
+
+            // Auto remove after 3 seconds
+            setTimeout(() => {
+                toast.classList.add('translate-x-full');
+                setTimeout(() => {
+                    container.removeChild(toast);
+                }, 300);
+            }, 3000);
+        }
+
+        // Add click handlers to download links
+        document.querySelectorAll('a[href^="https://downloadfbox.com"]').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const platform = this.querySelector('h3').textContent;
+                showToast(`در حال دانلود ${platform}...`, 'success');
+
+                // Simulate download (in real scenario, this would trigger actual download)
+                setTimeout(() => {
+                    window.open(this.href, '_blank');
+                }, 500);
+            });
+        });
+    </script>
+</body>
+
+</html>
